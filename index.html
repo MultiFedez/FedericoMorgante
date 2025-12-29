@@ -4,261 +4,729 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Portfolio Federico Morgante</title>
+    <meta name="description" content="Federico Morgante - Full Stack Developer Portfolio" />
+    <meta name="author" content="Federico Morgante" />
+    <title>Federico Morgante | Full Stack Developer</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
-        type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
+
+    <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Federico Morgante</span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                    src="assets/img/fotoProfilo.JPG" alt="..." /></span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
-                class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">projects</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a>
+<body>
+    <!-- Cursor Follower -->
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>FM<span class="logo-bracket">/&gt;</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#about" class="nav-link"><span class="nav-number">01.</span> <span data-i18n="nav.about">About</span></a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link"><span class="nav-number">02.</span> <span data-i18n="nav.experience">Experience</span></a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link"><span class="nav-number">03.</span> <span data-i18n="nav.skills">Skills</span></a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link"><span class="nav-number">04.</span> <span data-i18n="nav.projects">Projects</span></a></li>
+                <li class="nav-item"><a href="#education" class="nav-link"><span class="nav-number">05.</span> <span data-i18n="nav.education">Education</span></a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link"><span class="nav-number">06.</span> <span data-i18n="nav.contact">Contact</span></a></li>
+                <li class="nav-item">
+                    <button class="lang-switch" id="langSwitch" aria-label="Switch language">
+                        <span class="lang-flag">🇬🇧</span>
+                        <span class="lang-code">EN</span>
+                    </button>
                 </li>
+                <li class="nav-item"><a href="#" class="nav-btn" id="resumeBtn">Resume</a></li>
             </ul>
         </div>
     </nav>
-    <!-- Page Content-->
-    <div class="container-fluid p-0">
-        <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <h1 class="mb-0">
-                    Federico
-                    <span class="text-primary">Morgante</span>
-                </h1>
-                <div class="subheading mb-5">
-                    VIA GIOVANNI STANO 18 · MANDURIA, IT 74024 · 3505320111 ·
-                    <a href="mailto:name@email.com">federicomorgante88@gmail.com</a>
-                </div>
-                <p class="lead mb-5">Hi, I'm a passionate Full Stack Developer with a fervent passion for creating engaging web experiences. My expertise spans a wide range of languages, but my true passion lies in the dynamic universe of JavaScript.
 
-                    My adventure in the world of web development is enriched by the creative use of CSS and innovative libraries, through which I create captivating and intuitive web pages. I am a firm believer in modern design and 3D animation. I believe that interactions are a key to a memorable user experience. </p>
-                <p> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
-                <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/federico-morgante/"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="social-icon" href="https://github.com/MultiFedez"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Experience-->
-        <section class="resume-section" id="experience">
-            <div class="resume-section-content">
-                <h2 class="mb-5">WORK Experience</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Junior Full-Stack Web Developer</h3>
-                        <div class="subheading mb-3">Freelance</div>
-                        <p>After graduating from the Epicode Bootcamp I decided to work for myself.
-                            So I created a team made up of me and 2 other developers.
-                            We take care of creating WebApps for customers in our area..</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">August 2023 - Present</span></div>
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-
-        <!-- Skills-->
-        <section class="resume-section" id="skills">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Skills</h2>
-                <div class="subheading mb-3">Programming Languages & Tools</div>
-                <p>Javascript · Angular · Java · Typescript · SpringBoot · PostgreSQL · HTML · CSS · SASS · Bootstrap</p>
-                <div class="subheading mb-3">Workflow</div>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Mobile-First, Responsive Design
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Cross Browser Testing & Debugging
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Cross Functional Teams
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Agile Development & Scrum
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Interests-->
-        <section class="resume-section" id="projects">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Projects</h2>
-                <div>
-                    <div class="resume-item d-flex flex-column flex-md-row mb-1">
-                      <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Info Salute</h3>
-                        <div class="subheading mb-3">Personal Project: <br> ROLE: Full Stack Developer <br> Stack: Angular, Rest Api, SpringBoot, PostgreSQL, Postman
-                        </div>
-                        <p>It's a web app that was born from a personal health need that led me to want to help other users find the information that I was missing.
-
-                            On InfoSalute you can find valuable information based on the testimonies of other patients, and you can also include reviews on hospitals, departments and doctors.</p>
-                      </div>
-                      <div class="resume-date text-md-right">
-                        <span class="text-primary">August 2023 - September 2023</span>
-                      </div>
-                    </div>
-                    <div class="subheading mb-1">Links</div>
-                    <ul class="list-inline list-social-icons mb-5">
-                      <li class="list-inline-item">
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7128071791129878530/" target=”_blank”>
-                          <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
-                          </span>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="https://www.youtube.com/watch?v=kSOgRkFmkWI" target=”_blank”>
-                          <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fas fa-video fa-stack-1x fa-inverse"></i>
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <div class="resume-item d-flex flex-column flex-md-row mb-1">
-                      <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Adriano Group</h3>
-                        <div class="subheading mb-3">Team Size: 3 <br> ROLE: Front End Developer <br> Stack: Angular, Firebase, EmailJs, Bootstrap
-                        </div>
-                        <p>It is a web app born from the customer's need to make his company known nationally and internationally.
-                            It is a multi-service company that ranges from the construction of kitchens, to the creation of stands at fairs and in showrooms and to the creation of complete shops ranging from floors to painting, and more.
-                            We assisted the client step by step in choosing the structure, font animations and colors as he desired and we created the project as he imagined it.</p>
-                      </div>
-                      <div class="resume-date text-md-right">
-                        <span class="text-primary">September 2023 - November 2023</span>
-                      </div>
-                    </div>
-                    <div class="subheading mb-1">Links</div>
-                    <ul class="list-inline list-social-icons mb-5">
-                      <li class="list-inline-item">
-                        <a href="https://adrianogroup.it" target=”_blank”>
-                          <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Education-->
-        <section class="resume-section" id="education">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Education</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Mercatorum University</h3>
-                        <div class="subheading mb-3">Economy and Management</div>
-                        <div>Statistics - Business Management</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">September 2021 - Present</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Epicode School</h3>
-                        <div class="subheading mb-3">Technology Program</div>
-                        <div>Full-Stack Developer | I have studied several programming languages</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">March 2023 - August 2023</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">High School</h3>
-                        <div class="subheading mb-3">Scientifics Program</div>
-                        <p>Science - Physics - Mathematics</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">September 2002 - August 2007</span></div>
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Awards-->
-        <section class="resume-section" id="certifications">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Awards & Certifications</h2>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Full-Stack Developer Certified
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Front-End Developer Certified
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Back-End Developer Certified
-                    </li>
-                <!--
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        1
-                        <sup>st</sup>
-                        Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        2
-                        <sup>nd</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        1
-                        <sup>st</sup>
-                        Place - James Buchanan High School - Hackathon 2006
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        3
-                        <sup>rd</sup>
-                        Place - James Buchanan High School - Hackathon 2005
-                    </li>
-                -->
-                </ul>
-            </div>
-        </section>
+    <!-- Side Social Links -->
+    <div class="social-sidebar left">
+        <ul class="social-list">
+            <li><a href="https://github.com/MultiFedez" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/federico-morgante/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <div class="social-line"></div>
     </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
+
+    <!-- Side Email -->
+    <div class="social-sidebar right">
+        <a href="mailto:federicomorgante88@gmail.com" class="email-link">federicomorgante88@gmail.com</a>
+        <div class="social-line"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting fade-in" data-i18n="hero.greeting">Hi, my name is</p>
+            <h1 class="hero-title fade-in">
+                <span class="name-first">Federico</span>
+                <span class="name-last">Morgante.</span>
+            </h1>
+            <h2 class="hero-subtitle fade-in">
+                <span class="typing-text"></span>
+                <span class="typing-cursor">|</span>
+            </h2>
+            <p class="hero-description fade-in" data-i18n="hero.description">
+                I'm a passionate <span class="highlight">Full Stack Developer</span> crafting engaging web experiences.
+                My expertise spans a wide range of technologies, with a true passion for the dynamic universe of <span class="highlight">JavaScript</span>.
+            </p>
+            <div class="hero-cta fade-in">
+                <a href="#projects" class="btn btn-primary" data-i18n="hero.cta.work">View My Work</a>
+                <a href="#contact" class="btn btn-outline" data-i18n="hero.cta.contact">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span data-i18n="hero.scroll">Scroll</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">01.</span> <span data-i18n="about.title">About Me</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p data-i18n="about.p1">
+                        Hello! I'm Federico, a passionate Full Stack Developer with a fervent passion for creating engaging web experiences.
+                        My adventure in the world of web development is enriched by the creative use of CSS and innovative libraries,
+                        through which I create captivating and intuitive web pages.
+                    </p>
+                    <p data-i18n="about.p2">
+                        I am a firm believer in <span class="highlight">modern design</span> and <span class="highlight">3D animation</span>.
+                        I believe that interactions are a key to a memorable user experience.
+                    </p>
+                    <p data-i18n="about.p3">Here are some technologies I've been working with recently:</p>
+                    <ul class="tech-list">
+                        <li>JavaScript (ES6+)</li>
+                        <li>TypeScript</li>
+                        <li>Angular</li>
+                        <li>Spring Boot</li>
+                        <li>PostgreSQL</li>
+                        <li>SASS/SCSS</li>
+                    </ul>
+                </div>
+                <div class="about-image fade-in">
+                    <div class="image-wrapper">
+                        <img src="assets/img/fotoProfilo.JPG" alt="Federico Morgante" />
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">02.</span> <span data-i18n="experience.title">Work Experience</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title" data-i18n="experience.job1.title">Customer Care Manager</h3>
+                            <span class="timeline-company">@ RCP-vision</span>
+                        </div>
+                        <span class="timeline-date" data-i18n="experience.job1.date">August 2025 - Present</span>
+                        <p class="timeline-description" data-i18n="experience.job1.description">
+                            Promoted to Customer Care Manager, leading the entire customer support department
+                            for the software I previously developed as a Full Stack Developer.
+                        </p>
+                        <ul class="timeline-tasks">
+                            <li data-i18n="experience.job1.task1">Managing and coordinating the Customer Care team</li>
+                            <li data-i18n="experience.job1.task2">Ensuring high-quality customer support and satisfaction</li>
+                            <li data-i18n="experience.job1.task3">Developing support strategies and processes</li>
+                            <li data-i18n="experience.job1.task4">Bridging technical knowledge with customer needs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title" data-i18n="experience.job2.title">Customer Care Support</h3>
+                            <span class="timeline-company">@ RCP-vision</span>
+                        </div>
+                        <span class="timeline-date" data-i18n="experience.job2.date">December 2024 - August 2025</span>
+                        <p class="timeline-description" data-i18n="experience.job2.description">
+                            Transitioned to Customer Care Support role, leveraging my deep technical knowledge
+                            of the software I developed to provide expert assistance to users.
+                        </p>
+                        <ul class="timeline-tasks">
+                            <li data-i18n="experience.job2.task1">Providing technical support to software users</li>
+                            <li data-i18n="experience.job2.task2">Troubleshooting and resolving customer issues</li>
+                            <li data-i18n="experience.job2.task3">Creating documentation and user guides</li>
+                            <li data-i18n="experience.job2.task4">Collecting feedback for product improvement</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title" data-i18n="experience.job3.title">Full Stack Developer</h3>
+                            <span class="timeline-company">@ RCP-vision</span>
+                        </div>
+                        <span class="timeline-date" data-i18n="experience.job3.date">December 2023 - December 2024</span>
+                        <p class="timeline-description" data-i18n="experience.job3.description">
+                            Joined RCP-vision, a software house based in Florence, as a Full Stack Developer.
+                            Worked on developing enterprise software solutions for one year.
+                        </p>
+                        <ul class="timeline-tasks">
+                            <li data-i18n="experience.job3.task1">Developing full-stack web applications</li>
+                            <li data-i18n="experience.job3.task2">Working with Angular and Spring Boot</li>
+                            <li data-i18n="experience.job3.task3">Collaborating with cross-functional teams</li>
+                            <li data-i18n="experience.job3.task4">Implementing new features and maintaining codebase</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title" data-i18n="experience.job4.title">Junior Full-Stack Web Developer</h3>
+                            <span class="timeline-company">@ Freelance</span>
+                        </div>
+                        <span class="timeline-date" data-i18n="experience.job4.date">August 2023 - Present</span>
+                        <p class="timeline-description" data-i18n="experience.job4.description">
+                            After graduating from the Epicode Bootcamp I decided to work for myself.
+                            So I created a team made up of me and 2 other developers.
+                            We take care of creating WebApps for customers in our area.
+                        </p>
+                        <ul class="timeline-tasks">
+                            <li data-i18n="experience.job4.task1">Building responsive and performant web applications</li>
+                            <li data-i18n="experience.job4.task2">Collaborating with clients to understand their needs</li>
+                            <li data-i18n="experience.job4.task3">Leading a team of 3 developers</li>
+                            <li data-i18n="experience.job4.task4">Full-stack development with Angular and Spring Boot</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">03.</span> <span data-i18n="skills.title">Skills & Tools</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="skills-container">
+                <div class="skills-category fade-in">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-code"></i> <span data-i18n="skills.frontend">Frontend</span>
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-skill="JavaScript">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-card" data-skill="TypeScript">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" />
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="skill-card" data-skill="Angular">
+                            <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" />
+                            <span>Angular</span>
+                        </div>
+                        <div class="skill-card" data-skill="HTML5">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" />
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-card" data-skill="CSS3">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" />
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-card" data-skill="SASS">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SASS" />
+                            <span>SASS</span>
+                        </div>
+                        <div class="skill-card" data-skill="Bootstrap">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" />
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category fade-in">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-server"></i> <span data-i18n="skills.backend">Backend</span>
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-skill="Java">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" />
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-card" data-skill="Spring Boot">
+                            <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" />
+                            <span>Spring Boot</span>
+                        </div>
+                        <div class="skill-card" data-skill="PostgreSQL">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" />
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-card" data-skill="Postman">
+                            <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" />
+                            <span>Postman</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category fade-in">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-headset"></i> <span data-i18n="skills.crm">CRM & Project Management</span>
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-skill="HubSpot">
+                            <img src="https://www.vectorlogo.zone/logos/hubspot/hubspot-icon.svg" alt="HubSpot" />
+                            <span>HubSpot</span>
+                        </div>
+                        <div class="skill-card" data-skill="ZenDesk">
+                            <img src="https://www.vectorlogo.zone/logos/zendesk/zendesk-icon.svg" alt="ZenDesk" />
+                            <span>ZenDesk</span>
+                        </div>
+                        <div class="skill-card" data-skill="Jira">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg" alt="Jira" />
+                            <span>Jira</span>
+                        </div>
+                        <div class="skill-card" data-skill="Trello">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/trello/trello-plain.svg" alt="Trello" />
+                            <span>Trello</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category fade-in">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-cogs"></i> <span data-i18n="skills.workflow">Workflow</span>
+                    </h3>
+                    <div class="workflow-list">
+                        <div class="workflow-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="skills.workflow1">Mobile-First, Responsive Design</span>
+                        </div>
+                        <div class="workflow-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="skills.workflow2">Cross Browser Testing & Debugging</span>
+                        </div>
+                        <div class="workflow-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="skills.workflow3">Cross Functional Teams</span>
+                        </div>
+                        <div class="workflow-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="skills.workflow4">Agile Development & Scrum</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">04.</span> <span data-i18n="projects.title">Featured Projects</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="projects-grid">
+                <!-- Project 1: Football Match Analytics -->
+                <article class="project-card featured fade-in">
+                    <div class="project-content">
+                        <p class="project-overline" data-i18n="projects.p1.type">SaaS Platform</p>
+                        <h3 class="project-title">Football Match Analytics</h3>
+                        <div class="project-description">
+                            <p data-i18n="projects.p1.desc">
+                                Enterprise SaaS platform for advanced football analytics with AI.
+                                10 machine learning models analyzing 35,000+ historical matches with 55%+ prediction accuracy.
+                                Features gamification with levels, XP, news system with engagement, and multilingual support.
+                            </p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Angular 17 SSR</li>
+                            <li>Firebase</li>
+                            <li>Google Cloud</li>
+                            <li>Motion</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://football-match-analytics.web.app/" target="_blank" rel="noopener noreferrer" aria-label="Live Site">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <span class="project-date">2025</span>
+                        <span class="project-role" data-i18n="projects.p1.role">Front End Developer | Team of 4</span>
+                    </div>
+                    <div class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-futbol"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: CERNET ESCO -->
+                <article class="project-card featured reverse fade-in">
+                    <div class="project-content">
+                        <p class="project-overline" data-i18n="projects.p2.type">Corporate Website</p>
+                        <h3 class="project-title">CERNET ESCO</h3>
+                        <div class="project-description">
+                            <p data-i18n="projects.p2.desc">
+                                Corporate multipage website for CERNET, presenting management software and ESCO services.
+                                Features GDPR-compliant privacy management with Iubenda, integrated contact forms,
+                                and mobile-first responsive design with interactive sliders.
+                            </p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Angular 16</li>
+                            <li>Firebase</li>
+                            <li>Bootstrap</li>
+                            <li>Iubenda</li>
+                            <li>Swiper.js</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://cernet-esco.it/" target="_blank" rel="noopener noreferrer" aria-label="Live Site">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <span class="project-date">2025</span>
+                        <span class="project-role" data-i18n="projects.p2.role">Front End Developer | Team of 3</span>
+                    </div>
+                    <div class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-solar-panel"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3: Semplicemente Comunità - User Platform -->
+                <article class="project-card featured fade-in">
+                    <div class="project-content">
+                        <p class="project-overline" data-i18n="projects.p3.type">Web Application</p>
+                        <h3 class="project-title">Semplicemente Comunità - User Platform</h3>
+                        <div class="project-description">
+                            <p data-i18n="projects.p3.desc">
+                                Complete web platform for managing Renewable Energy Communities (CER).
+                                Custom dashboards for citizens, companies, associations and entities.
+                                Stripe payment integration, interactive OpenStreetMap maps, and internal messaging system.
+                            </p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Angular 16</li>
+                            <li>Spring Boot</li>
+                            <li>PostgreSQL</li>
+                            <li>AWS</li>
+                            <li>Stripe</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://app.semplicementecomunita.it/" target="_blank" rel="noopener noreferrer" aria-label="Live Site">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <span class="project-date">2024</span>
+                        <span class="project-role" data-i18n="projects.p3.role">Front End Developer | Team of 2</span>
+                    </div>
+                    <div class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4: Semplicemente Comunità - Admin Dashboard -->
+                <article class="project-card featured reverse fade-in">
+                    <div class="project-content">
+                        <p class="project-overline" data-i18n="projects.p4.type">Dashboard</p>
+                        <h3 class="project-title">Semplicemente Comunità - Admin Dashboard</h3>
+                        <div class="project-description">
+                            <p data-i18n="projects.p4.desc">
+                                Advanced administrative dashboard for CER operations and GSE practices management.
+                                Real-time analytics with Chart.js, PoLP system with granular roles (Admin, Moderator, User),
+                                and internal communication system for user management.
+                            </p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Angular 16</li>
+                            <li>Spring Boot</li>
+                            <li>Chart.js</li>
+                            <li>PostgreSQL</li>
+                            <li>AWS</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://admin.semplicementecomunita.it/" target="_blank" rel="noopener noreferrer" aria-label="Live Site">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <span class="project-date">2024</span>
+                        <span class="project-role" data-i18n="projects.p4.role">Front End Developer | Team of 2</span>
+                    </div>
+                    <div class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5: Semplicemente Comunità - Corporate -->
+                <article class="project-card featured fade-in">
+                    <div class="project-content">
+                        <p class="project-overline" data-i18n="projects.p5.type">Corporate Website</p>
+                        <h3 class="project-title">Semplicemente Comunità - Corporate</h3>
+                        <div class="project-description">
+                            <p data-i18n="projects.p5.desc">
+                                Corporate multipage website presenting CERNET management software for Energy Communities.
+                                Features interactive OpenStreetMap integration, WhatsApp Business for direct contact,
+                                and complete GDPR privacy management with Iubenda.
+                            </p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Angular 16</li>
+                            <li>Firebase</li>
+                            <li>Bootstrap</li>
+                            <li>OpenStreetMap</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://semplicementecomunita.it/" target="_blank" rel="noopener noreferrer" aria-label="Live Site">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <span class="project-date">2024</span>
+                        <span class="project-role" data-i18n="projects.p5.role">Front End Developer | Team of 2</span>
+                    </div>
+                    <div class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 6: Adriano Group -->
+                <article class="project-card featured reverse fade-in">
+                    <div class="project-content">
+                        <p class="project-overline" data-i18n="projects.p6.type">Marketing Landing Page</p>
+                        <h3 class="project-title">Adriano Group</h3>
+                        <div class="project-description">
+                            <p data-i18n="projects.p6.desc">
+                                SEO-optimized single-page landing for furniture installation and setup services.
+                                Smooth Motion animations for engaging UX, Trustpilot integration for verified reviews,
+                                and contact form system for lead acquisition.
+                            </p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Angular 16</li>
+                            <li>Firebase</li>
+                            <li>Motion</li>
+                            <li>Swiper.js</li>
+                            <li>Trustpilot</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://adrianogroup.it/" target="_blank" rel="noopener noreferrer" aria-label="Live Site">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <span class="project-date">2024</span>
+                        <span class="project-role" data-i18n="projects.p6.role">Front End Developer | Team of 3</span>
+                    </div>
+                    <div class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-couch"></i>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 7: Info Salute -->
+                <article class="project-card featured fade-in">
+                    <div class="project-content">
+                        <p class="project-overline" data-i18n="projects.p7.type">Personal Project</p>
+                        <h3 class="project-title">Info Salute</h3>
+                        <div class="project-description">
+                            <p data-i18n="projects.p7.desc">
+                                A web app born from a personal health need to help users find valuable health information.
+                                On InfoSalute you can find information based on patient testimonies, and you can also
+                                include reviews on hospitals, departments and doctors.
+                            </p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Angular</li>
+                            <li>Spring Boot</li>
+                            <li>PostgreSQL</li>
+                            <li>REST API</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7128071791129878530/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Post">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=kSOgRkFmkWI" target="_blank" rel="noopener noreferrer" aria-label="Demo Video">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <span class="project-date">2023</span>
+                        <span class="project-role" data-i18n="projects.p7.role">Full Stack Developer</span>
+                    </div>
+                    <div class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-number">05.</span> <span data-i18n="education.title">Education</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="education-grid">
+                <div class="education-card fade-in">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-institution">Università Pegaso</h3>
+                        <p class="education-degree">Informatica per le Aziende Digitali (L-31)</p>
+                        <p class="education-focus" data-i18n="education.e1.focus">Computer Science</p>
+                        <span class="education-date" data-i18n="education.e1.date">September 2024 - Present</span>
+                    </div>
+                </div>
+                <div class="education-card fade-in">
+                    <div class="education-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-institution">Castro Academy</h3>
+                        <p class="education-degree" data-i18n="education.e2.degree">Project Manager Course</p>
+                        <p class="education-focus" data-i18n="education.e2.focus">PMP Certification Preparation</p>
+                        <span class="education-date" data-i18n="education.e2.date">In Progress</span>
+                    </div>
+                </div>
+                <div class="education-card fade-in">
+                    <div class="education-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-institution">Epicode School</h3>
+                        <p class="education-degree">Full-Stack Developer</p>
+                        <p class="education-focus" data-i18n="education.e3.focus">Technology Program</p>
+                        <span class="education-date" data-i18n="education.e3.date">March 2023 - August 2023</span>
+                    </div>
+                </div>
+                <div class="education-card fade-in">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-institution" data-i18n="education.e4.institution">High School</h3>
+                        <p class="education-degree" data-i18n="education.e4.degree">Scientific Program</p>
+                        <p class="education-focus" data-i18n="education.e4.focus">Science - Physics - Mathematics</p>
+                        <span class="education-date" data-i18n="education.e4.date">September 2002 - August 2007</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="certifications fade-in">
+                <h3 class="certifications-title">
+                    <i class="fas fa-award"></i> <span data-i18n="education.certifications">Certifications</span>
+                </h3>
+                <div class="certifications-list">
+                    <div class="certification-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>HubSpot Customer Service Certified</span>
+                    </div>
+                    <div class="certification-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>HubSpot Sales Certified</span>
+                    </div>
+                    <div class="certification-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>Full-Stack Developer Certified</span>
+                    </div>
+                    <div class="certification-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>Front-End Developer Certified</span>
+                    </div>
+                    <div class="certification-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>Back-End Developer Certified</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title centered fade-in">
+                <span class="title-number">06.</span> <span data-i18n="contact.title">What's Next?</span>
+            </h2>
+            <div class="contact-content fade-in">
+                <h3 class="contact-title" data-i18n="contact.subtitle">Get In Touch</h3>
+                <p class="contact-description" data-i18n="contact.description">
+                    I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
+                    I'll try my best to get back to you!
+                </p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:federicomorgante88@gmail.com">federicomorgante88@gmail.com</a>
+                    </div>
+                </div>
+                <a href="mailto:federicomorgante88@gmail.com" class="btn btn-primary btn-large" data-i18n="contact.button">Say Hello</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-social mobile-only">
+                <a href="https://github.com/MultiFedez" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/federico-morgante/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="footer-credit" data-i18n="footer.credit">
+                Designed & Built by <span class="highlight">Federico Morgante</span>
+            </p>
+            <p class="footer-year">&copy; 2024</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
     <script src="js/scripts.js"></script>
 </body>
 
