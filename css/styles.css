@@ -222,7 +222,7 @@ button {
     display: flex;
     align-items: center;
     gap: var(--space-lg);
-    margin-left: var(--space-xl);
+    margin-left: auto;
 }
 
 .nav-item {
@@ -354,27 +354,56 @@ button {
         right: 0;
         width: min(75vw, 400px);
         height: 100vh;
+        height: 100dvh;
         background-color: var(--color-bg-secondary);
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: var(--space-xl);
         padding: var(--space-2xl);
+        margin-left: 0;
         transform: translateX(100%);
         transition: transform var(--transition-slow);
         box-shadow: -10px 0px 30px -15px rgba(2, 12, 27, 0.7);
+        overflow-y: auto;
     }
 
     .nav-menu.active {
         transform: translateX(0);
     }
 
+    .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+
     .nav-link {
         font-size: var(--fs-lg);
+        display: block;
+        padding: var(--space-sm) 0;
     }
 
     .nav-number {
         display: block;
         margin-bottom: var(--space-xs);
+    }
+
+    .nav-btn {
+        width: 100%;
+        padding: var(--space-sm) var(--space-lg);
+        text-align: center;
+    }
+
+    .lang-switch {
+        width: auto;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-menu {
+        width: 100vw;
+        padding: var(--space-xl);
     }
 }
 
@@ -1560,27 +1589,93 @@ button {
 /* ==========================================
    Responsive Adjustments
    ========================================== */
+
+/* Large Desktop */
 @media (max-width: 1200px) {
     :root {
         --container-padding: clamp(1.5rem, 4vw, 4rem);
     }
 }
 
+/* Tablet Landscape / Small Desktop */
+@media (max-width: 1024px) {
+    .project-card,
+    .project-card.reverse {
+        gap: var(--space-sm);
+    }
+
+    .project-title {
+        font-size: var(--fs-2xl);
+    }
+
+    .project-description {
+        padding: var(--space-md);
+    }
+}
+
+/* Tablet Portrait */
+@media (max-width: 900px) {
+    .section-title {
+        white-space: normal;
+        flex-wrap: wrap;
+    }
+
+    .timeline {
+        padding-left: var(--space-lg);
+    }
+
+    .timeline-marker {
+        left: calc(-1 * var(--space-lg) - 6px);
+    }
+
+    .timeline-header {
+        flex-direction: column;
+        gap: var(--space-xs);
+    }
+
+    .timeline-title {
+        font-size: var(--fs-lg);
+    }
+
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .education-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .education-icon {
+        margin: 0 auto;
+    }
+}
+
+/* Mobile Landscape / Large Mobile */
 @media (max-width: 768px) {
     :root {
         --space-section: clamp(3rem, 8vh, 5rem);
+        --nav-height: 60px;
     }
 
     .section-title {
         font-size: var(--fs-2xl);
+        white-space: normal;
+        gap: var(--space-sm);
     }
 
     .title-line {
         display: none;
     }
 
+    .title-number {
+        font-size: var(--fs-md);
+    }
+
     .hero {
         padding-top: calc(var(--nav-height) + var(--space-xl));
+        padding-left: var(--space-md);
+        padding-right: var(--space-md);
     }
 
     .hero-description {
@@ -1590,9 +1685,117 @@ button {
     .scroll-indicator {
         display: none;
     }
+
+    /* Timeline fixes */
+    .timeline {
+        padding-left: var(--space-md);
+    }
+
+    .timeline-marker {
+        left: calc(-1 * var(--space-md) - 6px);
+        width: 12px;
+        height: 12px;
+    }
+
+    .timeline-content {
+        padding: var(--space-md);
+    }
+
+    .timeline-tasks {
+        padding-left: var(--space-sm);
+    }
+
+    /* Skills fixes */
+    .skills-category {
+        padding: var(--space-md);
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        gap: var(--space-sm);
+    }
+
+    .skill-card {
+        padding: var(--space-sm);
+    }
+
+    .skill-card img {
+        width: 36px;
+        height: 36px;
+    }
+
+    /* Projects fixes */
+    .project-description {
+        padding: var(--space-md);
+    }
+
+    .project-tech-list {
+        gap: var(--space-sm);
+        flex-wrap: wrap;
+    }
+
+    .project-tech-list li {
+        font-size: var(--fs-xs);
+    }
+
+    /* Certifications fixes */
+    .certifications {
+        padding: var(--space-md);
+    }
+
+    .certifications-list {
+        gap: var(--space-sm);
+    }
+
+    .certification-badge {
+        padding: var(--space-xs) var(--space-sm);
+        flex: 1 1 auto;
+        min-width: 140px;
+        justify-content: center;
+    }
+
+    .certification-badge span {
+        font-size: var(--fs-xs);
+    }
+
+    /* Contact fixes */
+    .contact-title {
+        font-size: var(--fs-3xl);
+    }
+
+    .contact-item {
+        flex-direction: column;
+        gap: var(--space-xs);
+    }
+
+    .contact-item a {
+        font-size: var(--fs-sm);
+        word-break: break-all;
+    }
+
+    /* Hero shapes smaller on mobile */
+    .shape-1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .shape-2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .shape-3 {
+        width: 100px;
+        height: 100px;
+    }
 }
 
+/* Mobile Portrait */
 @media (max-width: 480px) {
+    :root {
+        --container-padding: var(--space-md);
+    }
+
     .hero-cta {
         flex-direction: column;
         width: 100%;
@@ -1612,6 +1815,157 @@ button {
 
     .workflow-list {
         grid-template-columns: 1fr;
+    }
+
+    /* Section title compact */
+    .section-title {
+        font-size: var(--fs-xl);
+    }
+
+    /* Timeline compact */
+    .timeline-title {
+        font-size: var(--fs-md);
+    }
+
+    .timeline-company {
+        font-size: var(--fs-sm);
+    }
+
+    .timeline-description {
+        font-size: var(--fs-sm);
+    }
+
+    /* Project cards compact */
+    .project-title {
+        font-size: var(--fs-xl);
+    }
+
+    .project-description p {
+        font-size: var(--fs-sm);
+    }
+
+    .project-image {
+        padding: var(--space-sm);
+        aspect-ratio: 16/9;
+    }
+
+    /* Education compact */
+    .education-card {
+        padding: var(--space-md);
+    }
+
+    .education-institution {
+        font-size: var(--fs-md);
+    }
+
+    /* Certifications compact */
+    .certification-badge {
+        min-width: 100%;
+    }
+
+    /* Contact compact */
+    .contact-title {
+        font-size: var(--fs-2xl);
+    }
+
+    .contact-description {
+        font-size: var(--fs-md);
+    }
+
+    .btn-large {
+        padding: var(--space-md) var(--space-lg);
+        font-size: var(--fs-sm);
+    }
+
+    /* About section */
+    .about-image {
+        max-width: 200px;
+    }
+
+    .image-wrapper::after {
+        top: 15px;
+        left: 15px;
+        right: -15px;
+        bottom: -15px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 360px) {
+    :root {
+        --container-padding: var(--space-sm);
+        --fs-hero: clamp(2rem, 10vw, 3rem);
+        --fs-hero-sub: clamp(1.2rem, 6vw, 2rem);
+    }
+
+    .nav-logo {
+        font-size: var(--fs-lg);
+    }
+
+    .hero-greeting {
+        font-size: var(--fs-sm);
+    }
+
+    .hero-description {
+        font-size: var(--fs-sm);
+    }
+
+    .section-title {
+        font-size: var(--fs-lg);
+    }
+
+    .title-number {
+        font-size: var(--fs-sm);
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skill-card img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .skill-card span {
+        font-size: 10px;
+    }
+
+    .project-title {
+        font-size: var(--fs-lg);
+    }
+
+    .project-tech-list li {
+        font-size: 10px;
+    }
+
+    .timeline-content {
+        padding: var(--space-sm);
+    }
+
+    .timeline-title {
+        font-size: var(--fs-sm);
+    }
+
+    .timeline-tasks li {
+        font-size: var(--fs-xs);
+    }
+
+    .education-institution {
+        font-size: var(--fs-sm);
+    }
+
+    .education-degree,
+    .education-focus {
+        font-size: var(--fs-xs);
+    }
+
+    .certification-badge span {
+        font-size: 10px;
+    }
+
+    .contact-title {
+        font-size: var(--fs-xl);
     }
 }
 
