@@ -1164,6 +1164,10 @@ button {
     border-radius: var(--radius-md);
     overflow: hidden;
     aspect-ratio: 16/10;
+    padding: var(--space-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-image-overlay {
@@ -1201,6 +1205,20 @@ button {
 .project-card:hover .project-image-placeholder i {
     opacity: 0.6;
     transform: scale(1.1);
+}
+
+.project-img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    object-position: center center;
+    transition: transform var(--transition-base);
+    position: relative;
+    z-index: 0;
+}
+
+.project-card:hover .project-img {
+    transform: scale(1.03);
 }
 
 @media (max-width: 900px) {
@@ -1594,6 +1612,85 @@ button {
 
     .workflow-list {
         grid-template-columns: 1fr;
+    }
+}
+
+/* ==========================================
+   FAM Vision Fixed Button
+   ========================================== */
+.fam-vision-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: 8px 14px;
+    background: rgba(10, 25, 47, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    z-index: 100;
+    transition: border-color var(--transition-base), box-shadow var(--transition-base);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.fam-vision-btn:hover {
+    border-color: rgba(212, 179, 255, 0.5);
+    box-shadow: 0 8px 25px rgba(60, 19, 70, 0.3);
+}
+
+.fam-vision-btn:hover .fam-vision-btn-brand {
+    letter-spacing: 0.05em;
+}
+
+.fam-vision-btn-label {
+    font-size: var(--fs-xs);
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.fam-vision-btn-brand {
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    background: linear-gradient(135deg, #EBE3EF 0%, #D4B3FF 50%, #3C1346 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: letter-spacing var(--transition-base);
+}
+
+@media (max-width: 1080px) {
+    .fam-vision-btn {
+        right: 65px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fam-vision-btn {
+        bottom: 15px;
+        right: 15px;
+        padding: 6px 10px;
+    }
+
+    .fam-vision-btn-label {
+        font-size: 8px;
+    }
+
+    .fam-vision-btn-brand {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .fam-vision-btn {
+        bottom: 10px;
+        right: 10px;
     }
 }
 

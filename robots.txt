@@ -1,0 +1,10 @@
+# robots.txt for https://multifedez.github.io/FedericoMorgante/
+# Generated: 2025-12-30
+# Reference: https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt
+
+# Allow all crawlers to access all content
+User-agent: *
+Allow: /
+
+# Sitemap location (fully-qualified URL as per specification)
+Sitemap: https://multifedez.github.io/FedericoMorgante/sitemap.xml

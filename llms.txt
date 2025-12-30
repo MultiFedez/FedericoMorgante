@@ -1,0 +1,59 @@
+# Federico Morgante
+
+> Full Stack Developer & Customer Care Manager based in Florence, Italy. Specializes in building engaging web experiences with Angular and Spring Boot, combining technical development expertise with customer-focused leadership.
+
+Federico Morgante is a passionate Full Stack Developer with expertise in modern web technologies. After completing an intensive Full Stack Developer course at EPICODE, he joined RCP-vision where he progressed from developer to Customer Care Manager, leveraging his deep technical knowledge to lead support operations for enterprise software.
+
+## Contact
+
+- [Email](mailto:federicomorgante88@gmail.com): federicomorgante88@gmail.com
+- [GitHub](https://github.com/MultiFedez): @MultiFedez
+- [LinkedIn](https://www.linkedin.com/in/federico-morgante/): @federico-morgante
+
+## Skills
+
+**Languages:** JavaScript, TypeScript, Java, SQL
+
+**Frontend:** Angular, HTML5, CSS3, SASS, Bootstrap
+
+**Backend:** Spring Boot, PostgreSQL, REST APIs, Postman
+
+**CRM & Project Management:** HubSpot, ZenDesk, Jira, Trello
+
+**Workflow:** Mobile-First Responsive Design, Cross Browser Testing & Debugging, Cross Functional Teams, Agile Development & Scrum
+
+## Experience
+
+- **Customer Care Manager at RCP-vision** (Aug 2025 - Present): Leading the entire customer support department, managing and coordinating the Customer Care team, ensuring high-quality customer support and satisfaction
+- **Customer Care Support at RCP-vision** (Dec 2024 - Aug 2025): Technical support leveraging deep software knowledge, troubleshooting customer issues, creating documentation and user guides
+- **Full Stack Developer at RCP-vision** (Dec 2023 - Dec 2024): Developing full-stack web applications with Angular and Spring Boot, collaborating with cross-functional teams
+- **Junior Full-Stack Web Developer at Freelance** (Aug 2023 - Present): Building responsive web applications, leading a team of 3 developers, working with clients to create custom WebApps
+
+## Education
+
+- **Bachelor's Degree in Computer Science for Digital Business** - Università Pegaso (2024 - Present)
+- **Project Manager Course** - Castro Academy (In Progress)
+- **Full-Stack Developer Course** - Epicode School (2023)
+- **High School Diploma - Scientific Program** (2002 - 2007)
+
+## Certifications
+
+- HubSpot Customer Service Certified
+- HubSpot Sales Certified
+- Full-Stack Developer Certified
+- Front-End Developer Certified
+- Back-End Developer Certified
+
+## Featured Projects
+
+- [Football Match Analytics](https://football-match-analytics.web.app/): Enterprise SaaS platform for advanced football analytics with AI, 10 ML models analyzing 35,000+ matches - Angular 17 SSR, Firebase, Google Cloud, Motion
+- [CERNET ESCO](https://cernet-esco.it/): Corporate multipage website for energy management software and ESCO services - Angular 16, Firebase, Bootstrap, Iubenda
+- [Semplicemente Comunità - User Platform](https://app.semplicementecomunita.it/): Complete web platform for managing Renewable Energy Communities (CER) with Stripe payments and OpenStreetMap - Angular 16, Spring Boot, PostgreSQL, AWS
+- [Semplicemente Comunità - Admin Dashboard](https://admin.semplicementecomunita.it/): Advanced administrative dashboard for CER operations with real-time analytics and role-based access - Angular 16, Spring Boot, Chart.js, PostgreSQL, AWS
+- [Semplicemente Comunità - Corporate](https://semplicementecomunita.it/): Corporate website presenting CERNET management software for Energy Communities - Angular 16, Firebase, Bootstrap, OpenStreetMap
+- [Adriano Group](https://adrianogroup.it/): SEO-optimized landing page for furniture installation services with Trustpilot integration - Angular 16, Firebase, Motion, Swiper.js
+- [Info Salute](https://www.youtube.com/watch?v=kSOgRkFmkWI): Personal project web app for health information based on patient testimonies - Angular, Spring Boot, PostgreSQL
+
+## Optional
+
+- [GitHub Repositories](https://github.com/MultiFedez?tab=repositories): More projects and code samples

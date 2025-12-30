@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="8" fill="#0a192f"/>
+  <text x="32" y="42" text-anchor="middle" font-family="monospace" font-size="18" font-weight="bold">
+    <tspan fill="#64ffda">&lt;</tspan><tspan fill="#ccd6f6">FM</tspan><tspan fill="#64ffda">/&gt;</tspan>
+  </text>
+</svg>
