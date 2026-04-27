@@ -139,34 +139,6 @@ button {
     background: none;
 }
 
-/* ==========================================
-   Cursor Follower
-   ========================================== */
-.cursor-follower {
-    width: 20px;
-    height: 20px;
-    border: 2px solid var(--color-accent);
-    border-radius: var(--radius-full);
-    position: fixed;
-    pointer-events: none;
-    z-index: 9999;
-    transform: translate(-50%, -50%);
-    transition: width 0.2s, height 0.2s, background-color 0.2s;
-    mix-blend-mode: difference;
-    display: none;
-}
-
-@media (hover: hover) and (pointer: fine) {
-    .cursor-follower {
-        display: block;
-    }
-}
-
-.cursor-follower.hover {
-    width: 40px;
-    height: 40px;
-    background-color: rgba(var(--color-accent-rgb), 0.1);
-}
 
 /* ==========================================
    Navigation
@@ -208,6 +180,8 @@ button {
     font-weight: 600;
     color: var(--color-text-primary);
     transition: color var(--transition-base);
+    flex-shrink: 0;
+    margin-right: var(--space-xl);
 }
 
 .nav-logo:hover {
@@ -2133,7 +2107,6 @@ button {
 @media print {
     .navbar,
     .social-sidebar,
-    .cursor-follower,
     .scroll-indicator {
         display: none !important;
     }

@@ -13,7 +13,6 @@
     const navToggle = document.getElementById('navToggle');
     const navMenu = document.getElementById('navMenu');
     const navLinks = document.querySelectorAll('.nav-link');
-    const cursorFollower = document.querySelector('.cursor-follower');
     const typingText = document.querySelector('.typing-text');
     const fadeElements = document.querySelectorAll('.fade-in');
     const sections = document.querySelectorAll('.section, .hero');
@@ -620,52 +619,6 @@
         });
     }, sectionObserverOptions);
 
-    // ==========================================
-    // Cursor Follower
-    // ==========================================
-    let mouseX = 0;
-    let mouseY = 0;
-    let cursorX = 0;
-    let cursorY = 0;
-
-    function updateCursor() {
-        const dx = mouseX - cursorX;
-        const dy = mouseY - cursorY;
-
-        cursorX += dx * 0.15;
-        cursorY += dy * 0.15;
-
-        if (cursorFollower) {
-            cursorFollower.style.left = cursorX + 'px';
-            cursorFollower.style.top = cursorY + 'px';
-        }
-
-        requestAnimationFrame(updateCursor);
-    }
-
-    function onMouseMove(e) {
-        mouseX = e.clientX;
-        mouseY = e.clientY;
-    }
-
-    function initCursorFollower() {
-        if (!cursorFollower) return;
-
-        document.addEventListener('mousemove', onMouseMove);
-        updateCursor();
-
-        // Add hover effect for interactive elements
-        const interactiveElements = document.querySelectorAll('a, button, .skill-card, .project-card, .education-card');
-
-        interactiveElements.forEach(el => {
-            el.addEventListener('mouseenter', () => {
-                cursorFollower.classList.add('hover');
-            });
-            el.addEventListener('mouseleave', () => {
-                cursorFollower.classList.remove('hover');
-            });
-        });
-    }
 
     // ==========================================
     // Parallax Effect
@@ -775,11 +728,6 @@
         navLinks.forEach(link => {
             link.addEventListener('click', closeMobileMenu);
         });
-
-        // Cursor follower (only on desktop)
-        if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
-            initCursorFollower();
-        }
 
         // Parallax
         initParallax();
