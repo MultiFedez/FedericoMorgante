@@ -1,8 +1,8 @@
 # Federico Morgante
 
-> Full Stack Developer & Customer Care Manager based in Florence, Italy. Specializes in building engaging web experiences with Angular and Spring Boot, combining technical development expertise with customer-focused leadership.
+> Project Manager & Full Stack Developer based in Florence, Italy. Over 14 years of leadership experience — from coordinating industrial teams for Leonardo S.p.A., the Italian Navy and Fincantieri, to leading customer care departments in enterprise software. Currently Customer Care Manager at RCP-vision (180+ enterprise clients) and freelance Team Lead at FAM Vision.
 
-Federico Morgante is a passionate Full Stack Developer with expertise in modern web technologies. After completing an intensive Full Stack Developer course at EPICODE, he joined RCP-vision where he progressed from developer to Customer Care Manager, leveraging his deep technical knowledge to lead support operations for enterprise software.
+Federico Morgante bridges business strategy and technical execution. His leadership journey started in 2006 (hospitality, hotel management, Italian Senate's Honor Company) and matured through six years as welding department manager, delivering the missile compartment of the Italian Navy's latest frigate for Leonardo S.p.A., as well as components for submarines and Fincantieri cruise ships. In 2023 he pivoted to tech with an intensive Full Stack Developer program at EPICODE, joining RCP-vision first as a developer and today leading their entire Customer Care department while building enterprise web applications in freelance with FAM Vision.
 
 ## Contact
 
@@ -10,7 +10,14 @@ Federico Morgante is a passionate Full Stack Developer with expertise in modern 
 - [GitHub](https://github.com/MultiFedez): @MultiFedez
 - [LinkedIn](https://www.linkedin.com/in/federico-morgante/): @federico-morgante
 
+## Role in FAM Vision
+
+- **Project Manager / Responsabile di Progetto** — capo-progetto on client engagements, coordinates development team and client-facing delivery
+- **Full Stack Developer** — Angular + Spring Boot delivery on enterprise engagements
+
 ## Skills
+
+**Leadership & Project Management:** Team Leadership (14+ years, up to 12 people), Stakeholder Management, Project Coordination, Budget Management, Agile & Scrum, Cross-Functional Teams, Sales & Marketing Coordination
 
 **Languages:** JavaScript, TypeScript, Java, SQL
 
@@ -18,21 +25,28 @@ Federico Morgante is a passionate Full Stack Developer with expertise in modern 
 
 **Backend:** Spring Boot, PostgreSQL, REST APIs, Postman
 
-**CRM & Project Management:** HubSpot, ZenDesk, Jira, Trello
+**CRM & Tools:** HubSpot, ZenDesk, Jira, Trello
 
-**Workflow:** Mobile-First Responsive Design, Cross Browser Testing & Debugging, Cross Functional Teams, Agile Development & Scrum
+**Workflow:** Mobile-First Responsive Design, Cross Browser Testing & Debugging, Agile Development & Scrum
 
-## Experience
+## Experience — Management & Leadership (14+ years, 2006 — Present)
 
-- **Customer Care Manager at RCP-vision** (Aug 2025 - Present): Leading the entire customer support department, managing and coordinating the Customer Care team, ensuring high-quality customer support and satisfaction
-- **Customer Care Support at RCP-vision** (Dec 2024 - Aug 2025): Technical support leveraging deep software knowledge, troubleshooting customer issues, creating documentation and user guides
-- **Full Stack Developer at RCP-vision** (Dec 2023 - Dec 2024): Developing full-stack web applications with Angular and Spring Boot, collaborating with cross-functional teams
-- **Junior Full-Stack Web Developer at Freelance** (Aug 2023 - Present): Building responsive web applications, leading a team of 3 developers, working with clients to create custom WebApps
+- **Customer Care Manager at RCP-vision** (Aug 2025 - Present): Leading the entire Customer Care department of an enterprise software house. Direct management of 180+ enterprise clients across the software lifecycle. Coordination of the Customer Care team plus sales and marketing departments. Decision-making authority on product feedback loops and feature prioritization.
+- **Welding Department Manager — Industrial Contractor** (2017 - 2023, 6 years): Managed a 12-person welding department delivering manufacturing projects for the largest Italian industrial groups. End clients: Leonardo S.p.A. (missile compartment of the Italian Navy's latest frigate, including surface cannon movement system and internal robotic missile loading/unloading mechanism), Italian Navy (submarine components), Fincantieri (cruise ship components), plus classified aerospace projects under confidentiality. Supply chain, shifts, commissions, deadlines and direct liaison with clients' technical referents.
+- **Honor Company Soldier — Italian Senate & Chamber of Deputies, Rome** (2011 - 2012): Italian Air Force Honor Company at the Italian Parliament. Coordination of subordinate airmen during institutional ceremonies.
+- **Manager & Internal Administrator at Hotel Morgan** (2008 - 2011, 3 years): End-to-end management and internal administration. Accounting, operations and online booking software systems.
+- **Shift Manager at Naxos Caffè** (2006 - 2008, 2 years): First leadership role. Coordination of a 9-person team, cash operations, supplies and expense control.
+
+## Experience — Tech (2023 — Present)
+
+- **Customer Care Support at RCP-vision** (Dec 2024 - Aug 2025): Technical support role leveraging the deep knowledge of the enterprise software previously developed as Full Stack Developer.
+- **Full Stack Developer at RCP-vision** (Dec 2023 - Dec 2024): Enterprise software development with Angular + Spring Boot + PostgreSQL. Agile/Scrum cross-functional collaboration.
+- **Full-Stack Developer & Team Lead at FAM Vision (Freelance)** (Aug 2023 - Present): Co-founding member and team lead of a web agency delivering enterprise web applications, SaaS platforms and corporate websites across Italy. Technical lead of 3 developers, client-facing role, project management across multiple concurrent engagements.
 
 ## Education
 
 - **Bachelor's Degree in Computer Science for Digital Business** - Università Pegaso (2024 - Present)
-- **Project Manager Course** - Castro Academy (In Progress)
+- **Project Manager Course** - Castro Academy (In Progress): PMP Certification · Agile & Scrum · Stakeholder & Budget Management
 - **Full-Stack Developer Course** - Epicode School (2023)
 - **High School Diploma - Scientific Program** (2002 - 2007)
 

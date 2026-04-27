@@ -31,10 +31,10 @@
     const translations = {
         en: {
             typingPhrases: [
+                'I lead tech teams.',
                 'I build things for the web.',
-                'I create digital experiences.',
-                'I love clean code.',
-                'I craft user interfaces.'
+                'From strategy to code.',
+                'Full stack, full ownership.'
             ],
             nav: {
                 about: 'About',
@@ -46,7 +46,7 @@
             },
             hero: {
                 greeting: 'Hi, my name is',
-                description: 'I\'m a passionate <span class="highlight">Full Stack Developer</span> crafting engaging web experiences. My expertise spans a wide range of technologies, with a true passion for the dynamic universe of <span class="highlight">JavaScript</span>.',
+                description: 'I\'m a <span class="highlight">Project Manager &amp; Full Stack Developer</span> with over 14 years of leadership experience — from coordinating industrial teams for <span class="highlight">Leonardo S.p.A.</span>, the Italian Navy and Fincantieri, to leading customer care departments in enterprise software. I bridge business strategy and technical execution with <span class="highlight">Angular</span> and <span class="highlight">Spring Boot</span>.',
                 cta: {
                     work: 'View My Work',
                     contact: 'Get In Touch'
@@ -55,47 +55,91 @@
             },
             about: {
                 title: 'About Me',
-                p1: 'Hello! I\'m Federico, a passionate Full Stack Developer with a fervent passion for creating engaging web experiences. My adventure in the world of web development is enriched by the creative use of CSS and innovative libraries, through which I create captivating and intuitive web pages.',
-                p2: 'I am a firm believer in <span class="highlight">modern design</span> and <span class="highlight">3D animation</span>. I believe that interactions are a key to a memorable user experience.',
+                p1: 'Hello! I\'m Federico, a <span class="highlight">Project Manager &amp; Full Stack Developer</span>. My leadership journey started in 2006 and spans over 14 years: from managing a 9-person team in hospitality, to administering a hotel, to coordinating airmen at the Italian Senate\'s Honor Company in Rome, up to leading a 12-person welding department delivering the missile compartment of the Italian Navy\'s latest frigate for <span class="highlight">Leonardo S.p.A.</span>, along with components for submarines and Fincantieri cruise ships.',
+                p2: 'In 2023 I channelled that leadership into tech: intensive Full-Stack Developer program at EPICODE and I joined <span class="highlight">RCP-vision</span> as a developer. Today I lead their entire Customer Care department — <span class="highlight">180+ direct clients</span>, sales and marketing — while building enterprise web applications in freelance with <span class="highlight">FAM Vision</span>.',
                 p3: 'Here are some technologies I\'ve been working with recently:'
             },
             experience: {
                 title: 'Work Experience',
-                job1: {
-                    title: 'Customer Care Manager',
-                    date: 'August 2025 - Present',
-                    description: 'Promoted to Customer Care Manager, leading the entire customer support department for the software I previously developed as a Full Stack Developer.',
-                    task1: 'Managing and coordinating the Customer Care team',
-                    task2: 'Ensuring high-quality customer support and satisfaction',
-                    task3: 'Developing support strategies and processes',
-                    task4: 'Bridging technical knowledge with customer needs'
+                leadership: {
+                    label: 'Management &amp; Leadership',
+                    years: '14+ years &middot; 2006 — Present',
+                    job1: {
+                        title: 'Customer Care Manager',
+                        date: 'August 2025 - Present',
+                        description: 'Leading the entire Customer Care department of an enterprise software house, directly managing <strong>180+ clients</strong> and coordinating sales and marketing teams. End-to-end accountability for the relationship between customers and the development team.',
+                        task1: 'Direct management of 180+ enterprise clients across the software lifecycle',
+                        task2: 'Coordination of the Customer Care team, plus sales and marketing departments',
+                        task3: 'Decision-making authority on product feedback loops and feature prioritization',
+                        task4: 'Interface between customers and development team to drive implementations'
+                    },
+                    job2: {
+                        title: 'Welding Department Manager',
+                        company: '@ Industrial Contractor — Defense, Aerospace &amp; Shipbuilding',
+                        date: '2017 - 2023 &middot; 6 years',
+                        description: 'Managed a <strong>12-person welding department</strong> delivering manufacturing projects for the largest Italian groups in defense, aerospace and shipbuilding. Direct liaison with the technical referents of the end clients.',
+                        task1: '<strong>Leonardo S.p.A. — Italian Navy</strong>: end-to-end coordination of the missile compartment of the latest frigate in service, including the surface cannon movement system and the internal robotic missile loading/unloading mechanism',
+                        task2: '<strong>Italian Navy</strong>: structural components for submarines',
+                        task3: '<strong>Fincantieri</strong>: structural components for cruise ships',
+                        task4: 'Additional classified projects for the aerospace sector (under confidentiality)',
+                        task5: 'Planning of shifts, tasks, supply chain, materials, deadlines and commissions for a 12-person team'
+                    },
+                    job3: {
+                        title: 'Honor Company Soldier',
+                        company: '@ Italian Senate &amp; Chamber of Deputies, Rome',
+                        date: '2011 - 2012',
+                        description: 'Served in the Italian Air Force Honor Company at the Italian Parliament, Rome. Coordinated subordinate airmen during official institutional ceremonies in a high-visibility context.',
+                        task1: 'Coordination of subordinate airmen',
+                        task2: 'Ceremonial duties at the Senate and Chamber of Deputies',
+                        task3: 'Operating in a high-visibility institutional context'
+                    },
+                    job4: {
+                        title: 'Manager &amp; Internal Administrator',
+                        date: '2008 - 2011 &middot; 3 years',
+                        description: 'End-to-end management and internal administration of Hotel Morgan, including accounting, operations and management of the online booking software systems.',
+                        task1: 'Internal accounting and administration',
+                        task2: 'Hotel-wide operational oversight',
+                        task3: 'Management of online booking software systems'
+                    },
+                    job5: {
+                        title: 'Shift Manager',
+                        date: '2006 - 2008 &middot; 2 years',
+                        description: 'First leadership role. Coordinated a team of 9, directly managing cash operations, supplies and operational expenses.',
+                        task1: 'Coordination of a 9-person team',
+                        task2: 'Direct management of cash and till',
+                        task3: 'Supplies procurement and expense control'
+                    }
                 },
-                job2: {
-                    title: 'Customer Care Support',
-                    date: 'December 2024 - August 2025',
-                    description: 'Transitioned to Customer Care Support role, leveraging my deep technical knowledge of the software I developed to provide expert assistance to users.',
-                    task1: 'Providing technical support to software users',
-                    task2: 'Troubleshooting and resolving customer issues',
-                    task3: 'Creating documentation and user guides',
-                    task4: 'Collecting feedback for product improvement'
-                },
-                job3: {
-                    title: 'Full Stack Developer',
-                    date: 'December 2023 - December 2024',
-                    description: 'Joined RCP-vision, a software house based in Florence, as a Full Stack Developer. Worked on developing enterprise software solutions for one year.',
-                    task1: 'Developing full-stack web applications',
-                    task2: 'Working with Angular and Spring Boot',
-                    task3: 'Collaborating with cross-functional teams',
-                    task4: 'Implementing new features and maintaining codebase'
-                },
-                job4: {
-                    title: 'Junior Full-Stack Web Developer',
-                    date: 'August 2023 - Present',
-                    description: 'After graduating from the Epicode Bootcamp I decided to work for myself. So I created a team made up of me and 2 other developers. We take care of creating WebApps for customers in our area.',
-                    task1: 'Building responsive and performant web applications',
-                    task2: 'Collaborating with clients to understand their needs',
-                    task3: 'Leading a team of 3 developers',
-                    task4: 'Full-stack development with Angular and Spring Boot'
+                tech: {
+                    label: 'Tech Experience',
+                    years: '2023 — Present',
+                    job1: {
+                        title: 'Customer Care Support',
+                        date: 'December 2024 - August 2025',
+                        description: 'Technical support role leveraging the deep knowledge of the enterprise software I had previously developed as Full Stack Developer.',
+                        task1: 'Technical support for the enterprise software users',
+                        task2: 'Troubleshooting and root-cause analysis of customer issues',
+                        task3: 'Writing documentation and user guides',
+                        task4: 'Collecting structured feedback for product improvement'
+                    },
+                    job2: {
+                        title: 'Full Stack Developer',
+                        date: 'December 2023 - December 2024',
+                        description: 'Full Stack Developer at RCP-vision, a Florence-based software house. Developed enterprise software solutions with <strong>Angular</strong> and <strong>Spring Boot</strong>.',
+                        task1: 'Full-stack development of enterprise web applications',
+                        task2: 'Angular + Spring Boot + PostgreSQL tech stack',
+                        task3: 'Cross-functional team collaboration in an Agile/Scrum environment',
+                        task4: 'Feature implementation and codebase maintenance'
+                    },
+                    job3: {
+                        title: 'Full-Stack Developer &amp; Team Lead',
+                        date: 'August 2023 - Present',
+                        description: 'Co-founding member and team lead of <strong>FAM Vision</strong>, a web agency delivering enterprise web applications, SaaS platforms and corporate websites to clients across Italy.',
+                        task1: 'Technical lead of a team of 3 developers',
+                        task2: 'Client-facing role: requirements gathering, scoping, delivery',
+                        task3: 'Full-stack development with Angular, Spring Boot, Firebase, AWS',
+                        task4: 'Project management across multiple concurrent enterprise engagements'
+                    }
                 }
             },
             skills: {
@@ -156,7 +200,7 @@
                 },
                 e2: {
                     degree: 'Project Manager Course',
-                    focus: 'PMP Certification Preparation',
+                    focus: 'PMP Certification &middot; Agile &amp; Scrum &middot; Stakeholder &amp; Budget Management',
                     date: 'In Progress'
                 },
                 e3: {
@@ -182,10 +226,10 @@
         },
         it: {
             typingPhrases: [
+                'Guido team tecnici.',
                 'Costruisco cose per il web.',
-                'Creo esperienze digitali.',
-                'Amo il codice pulito.',
-                'Creo interfacce utente.'
+                'Dalla strategia al codice.',
+                'Full stack, piena ownership.'
             ],
             nav: {
                 about: 'Chi Sono',
@@ -197,7 +241,7 @@
             },
             hero: {
                 greeting: 'Ciao, mi chiamo',
-                description: 'Sono un <span class="highlight">Full Stack Developer</span> appassionato che crea esperienze web coinvolgenti. La mia esperienza spazia su un\'ampia gamma di tecnologie, con una vera passione per l\'universo dinamico di <span class="highlight">JavaScript</span>.',
+                description: 'Sono un <span class="highlight">Project Manager &amp; Full Stack Developer</span> con oltre 14 anni di esperienza in ruoli di leadership — dal coordinamento di team industriali per <span class="highlight">Leonardo S.p.A.</span>, Marina Militare Italiana e Fincantieri, alla guida di reparti customer care in software house enterprise. Unisco strategia di business ed esecuzione tecnica con <span class="highlight">Angular</span> e <span class="highlight">Spring Boot</span>.',
                 cta: {
                     work: 'Vedi i Miei Lavori',
                     contact: 'Contattami'
@@ -206,47 +250,91 @@
             },
             about: {
                 title: 'Chi Sono',
-                p1: 'Ciao! Sono Federico, un Full Stack Developer appassionato con una fervida passione per la creazione di esperienze web coinvolgenti. La mia avventura nel mondo dello sviluppo web si arricchisce dell\'uso creativo dei CSS e di librerie innovative, attraverso le quali creo pagine web accattivanti e intuitive.',
-                p2: 'Credo fermamente nel <span class="highlight">design moderno</span> e nelle <span class="highlight">animazioni 3D</span>. Credo che le interazioni siano la chiave per un\'esperienza utente memorabile.',
+                p1: 'Ciao! Sono Federico, <span class="highlight">Project Manager &amp; Full Stack Developer</span>. Il mio percorso in ruoli di leadership parte dal 2006 e dura da oltre 14 anni: dalla gestione di un team di 9 persone nella ristorazione, all\'amministrazione di un hotel, al coordinamento degli avieri nella Compagnia d\'Onore al Senato della Repubblica a Roma, fino alla guida di un reparto saldatura di 12 dipendenti che ha realizzato il comparto missilistico dell\'ultima fregata della Marina Militare Italiana per <span class="highlight">Leonardo S.p.A.</span>, insieme a componenti per sottomarini e per le navi da crociera Fincantieri.',
+                p2: 'Nel 2023 ho convertito quella leadership nel mondo tech: corso Full-Stack intensivo a EPICODE e ingresso in <span class="highlight">RCP-vision</span> come sviluppatore. Oggi guido l\'intero reparto Customer Care dell\'azienda — <span class="highlight">oltre 180 clienti diretti</span>, sales e marketing — in parallelo al lavoro freelance con <span class="highlight">FAM Vision</span> su applicazioni web enterprise.',
                 p3: 'Ecco alcune tecnologie con cui ho lavorato di recente:'
             },
             experience: {
                 title: 'Esperienza Lavorativa',
-                job1: {
-                    title: 'Customer Care Manager',
-                    date: 'Agosto 2025 - Presente',
-                    description: 'Promosso a Customer Care Manager, guido l\'intero reparto di assistenza clienti per il software che ho precedentemente sviluppato come Full Stack Developer.',
-                    task1: 'Gestione e coordinamento del team Customer Care',
-                    task2: 'Garantire supporto clienti di alta qualità e soddisfazione',
-                    task3: 'Sviluppo di strategie e processi di supporto',
-                    task4: 'Collegamento tra conoscenze tecniche ed esigenze dei clienti'
+                leadership: {
+                    label: 'Management &amp; Leadership',
+                    years: '14+ anni &middot; 2006 — Presente',
+                    job1: {
+                        title: 'Customer Care Manager',
+                        date: 'Agosto 2025 - Presente',
+                        description: 'Guido l\'intero reparto Customer Care di una software house enterprise, gestendo direttamente <strong>oltre 180 clienti</strong> e coordinando il reparto sales e marketing. Potere decisionale end-to-end sulla relazione tra clienti e team di sviluppo.',
+                        task1: 'Gestione diretta di oltre 180 clienti enterprise lungo l\'intero ciclo di vita del software',
+                        task2: 'Coordinamento del team Customer Care, oltre al reparto sales e marketing',
+                        task3: 'Potere decisionale su loop di feedback prodotto e priorità delle nuove feature',
+                        task4: 'Interfaccia tra clienti e team di sviluppo per guidare le implementazioni'
+                    },
+                    job2: {
+                        title: 'Caporeparto Saldatore',
+                        company: '@ Appalti industriali — Difesa, Aerospazio &amp; Cantieristica',
+                        date: '2017 - 2023 &middot; 6 anni',
+                        description: 'Gestione diretta di un <strong>reparto saldatura di 12 dipendenti</strong>, con commesse per i principali gruppi italiani dei settori difesa, aerospazio e cantieristica. Relazione diretta con i referenti tecnici dei clienti finali.',
+                        task1: '<strong>Leonardo S.p.A. — Marina Militare Italiana</strong>: coordinamento end-to-end del comparto missilistico dell\'ultima fregata in dotazione, incluso il sistema di movimento del cannone in superficie e il meccanismo robotizzato interno di caricamento/scaricamento missili',
+                        task2: '<strong>Marina Militare Italiana</strong>: componenti strutturali per sottomarini',
+                        task3: '<strong>Fincantieri</strong>: componenti strutturali per navi da crociera',
+                        task4: 'Ulteriori progetti classificati per il comparto aerospaziale (coperti da vincoli di riservatezza)',
+                        task5: 'Pianificazione turni, mansioni, supply chain, materiali, scadenze e commesse per il team di 12 dipendenti'
+                    },
+                    job3: {
+                        title: 'Militare in Compagnia d\'Onore',
+                        company: '@ Senato della Repubblica &amp; Camera dei Deputati, Roma',
+                        date: '2011 - 2012',
+                        description: 'Servizio nella Compagnia d\'Onore dell\'Aeronautica Militare presso il Parlamento Italiano a Roma. Coordinamento degli avieri sottoposti durante le cerimonie istituzionali ufficiali, in un contesto ad alta visibilità.',
+                        task1: 'Coordinamento degli avieri sottoposti',
+                        task2: 'Servizio cerimoniale al Senato e alla Camera dei Deputati',
+                        task3: 'Operatività in contesto istituzionale ad alta visibilità'
+                    },
+                    job4: {
+                        title: 'Gestore &amp; Amministratore Interno',
+                        date: '2008 - 2011 &middot; 3 anni',
+                        description: 'Gestione end-to-end e amministrazione interna dell\'Hotel Morgan, inclusa contabilità, operazioni e gestione dei sistemi software di registrazione online.',
+                        task1: 'Contabilità e amministrazione interna',
+                        task2: 'Supervisione operativa dell\'intera struttura alberghiera',
+                        task3: 'Gestione dei sistemi software di registrazione online'
+                    },
+                    job5: {
+                        title: 'Responsabile Turno',
+                        date: '2006 - 2008 &middot; 2 anni',
+                        description: 'Primo ruolo di leadership. Coordinamento di un team di 9 persone, gestione diretta di cassa, approvvigionamenti e spese operative.',
+                        task1: 'Coordinamento di un team di 9 persone',
+                        task2: 'Gestione diretta di cassa e incassi',
+                        task3: 'Approvvigionamenti e controllo spese'
+                    }
                 },
-                job2: {
-                    title: 'Customer Care Support',
-                    date: 'Dicembre 2024 - Agosto 2025',
-                    description: 'Passaggio al ruolo di Customer Care Support, sfruttando la mia profonda conoscenza tecnica del software che ho sviluppato per fornire assistenza esperta agli utenti.',
-                    task1: 'Fornire supporto tecnico agli utenti del software',
-                    task2: 'Risoluzione problemi e gestione delle richieste dei clienti',
-                    task3: 'Creazione di documentazione e guide utente',
-                    task4: 'Raccolta feedback per il miglioramento del prodotto'
-                },
-                job3: {
-                    title: 'Full Stack Developer',
-                    date: 'Dicembre 2023 - Dicembre 2024',
-                    description: 'Entrato in RCP-vision, una software house con sede a Firenze, come Full Stack Developer. Ho lavorato allo sviluppo di soluzioni software enterprise per un anno.',
-                    task1: 'Sviluppo di applicazioni web full-stack',
-                    task2: 'Lavoro con Angular e Spring Boot',
-                    task3: 'Collaborazione con team interfunzionali',
-                    task4: 'Implementazione di nuove funzionalità e manutenzione del codice'
-                },
-                job4: {
-                    title: 'Junior Full-Stack Web Developer',
-                    date: 'Agosto 2023 - Presente',
-                    description: 'Dopo il diploma al Bootcamp Epicode ho deciso di lavorare in proprio. Ho creato un team composto da me e altri 2 sviluppatori. Ci occupiamo di creare WebApp per clienti della nostra zona.',
-                    task1: 'Creazione di applicazioni web responsive e performanti',
-                    task2: 'Collaborazione con i clienti per comprendere le loro esigenze',
-                    task3: 'Guida di un team di 3 sviluppatori',
-                    task4: 'Sviluppo full-stack con Angular e Spring Boot'
+                tech: {
+                    label: 'Esperienza Tech',
+                    years: '2023 — Presente',
+                    job1: {
+                        title: 'Customer Care Support',
+                        date: 'Dicembre 2024 - Agosto 2025',
+                        description: 'Ruolo di supporto tecnico che sfrutta la profonda conoscenza del software enterprise che avevo precedentemente sviluppato come Full Stack Developer.',
+                        task1: 'Supporto tecnico agli utenti del software enterprise',
+                        task2: 'Troubleshooting e analisi delle cause radice delle issue dei clienti',
+                        task3: 'Redazione di documentazione e guide utente',
+                        task4: 'Raccolta strutturata di feedback per il miglioramento del prodotto'
+                    },
+                    job2: {
+                        title: 'Full Stack Developer',
+                        date: 'Dicembre 2023 - Dicembre 2024',
+                        description: 'Full Stack Developer in RCP-vision, software house con sede a Firenze. Sviluppo di soluzioni software enterprise con <strong>Angular</strong> e <strong>Spring Boot</strong>.',
+                        task1: 'Sviluppo full-stack di applicazioni web enterprise',
+                        task2: 'Stack tecnologico Angular + Spring Boot + PostgreSQL',
+                        task3: 'Collaborazione cross-funzionale in ambiente Agile/Scrum',
+                        task4: 'Implementazione di feature e manutenzione del codebase'
+                    },
+                    job3: {
+                        title: 'Full-Stack Developer &amp; Team Lead',
+                        date: 'Agosto 2023 - Presente',
+                        description: 'Membro co-fondatore e team lead di <strong>FAM Vision</strong>, web agency che consegna applicazioni web enterprise, piattaforme SaaS e siti corporate a clienti in tutta Italia.',
+                        task1: 'Lead tecnico di un team di 3 sviluppatori',
+                        task2: 'Ruolo client-facing: raccolta requisiti, scoping e delivery',
+                        task3: 'Sviluppo full-stack con Angular, Spring Boot, Firebase, AWS',
+                        task4: 'Project management su più commesse enterprise in parallelo'
+                    }
                 }
             },
             skills: {
@@ -307,7 +395,7 @@
                 },
                 e2: {
                     degree: 'Corso Project Manager',
-                    focus: 'Preparazione Certificazione PMP',
+                    focus: 'Certificazione PMP &middot; Agile &amp; Scrum &middot; Gestione Stakeholder &amp; Budget',
                     date: 'In Corso'
                 },
                 e3: {
