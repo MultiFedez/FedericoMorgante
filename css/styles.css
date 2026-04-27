@@ -221,7 +221,7 @@ button {
 .nav-menu {
     display: flex;
     align-items: center;
-    gap: var(--space-lg);
+    gap: var(--space-md);
     margin-left: auto;
 }
 
@@ -235,6 +235,7 @@ button {
     color: var(--color-text-secondary);
     padding: var(--space-xs) 0;
     transition: color var(--transition-base);
+    white-space: nowrap;
 }
 
 .nav-link:hover,
